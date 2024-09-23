@@ -1,0 +1,262 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: fit-content;
+}
+
+:root
+{
+    --main-color:darkblue;
+    --secondary-color:#eaeaea;
+}
+ul li a
+{
+    text-decoration: none;
+}
+ul li 
+{
+    list-style: none;
+}
+header
+{
+    background-color: var(--secondary-color);
+}
+header .btn
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.container
+{
+    width: max-content;
+}
+header .btn button
+{
+    padding: 2px;
+    color: white;
+}
+header .btn .red
+{
+background-color: darkblue;
+border: none;
+padding: 5px;
+}
+header .btn .blue
+{
+    background-color:orangered;
+    border: none;
+    padding: 5px;
+}
+header .btn span i 
+{
+    font-size: 15px;
+    margin-left: 5px;
+}
+header .text p 
+{
+    color: var(--main-color);
+    display: flex;
+    align-items: center;
+}
+.logo img 
+{
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+}
+section .text 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section .text h3 
+{
+    color: var(--main-color);
+}
+.icons
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.icons .small-icon 
+{
+    width: 50px;
+    height: 40px;
+    border-radius: 16px;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.icosn h4 
+{
+    color: var(--main-color);
+}
+.active
+{
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    font-size: 14px;
+    text-align: center;
+    width: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav 
+{
+    border-top: 1px solid gray;
+}
+.active-link 
+{
+    border-bottom: 3px solid gray;
+}
+nav ul li  a
+{
+    color: var(--main-color);
+}
+main 
+{
+    background-color: var(--secondary-color);
+}
+    
+.card-img img 
+{
+    height: 100px;
+    padding: 10px;
+}
+.card-img
+{
+    margin-bottom: auto;
+    padding: 10px;
+}
+
+main .parent .card .text p
+{
+   margin-left: auto;
+}
+.bluish
+{
+    color: rgb(135, 225, 250);
+}
+.card-icon 
+{
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+    font-size: 30px;
+    color: gray;
+    margin-right: 15px;
+    border-top: 1px solid gray;
+    opacity: 0.5;
+}
+.img-flex img 
+{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.card 
+{
+    width: 500px;
+    margin: 10px;
+}
+.img-flex
+{
+    padding: 20px;
+}
+.card .text p 
+{
+    margin-left: 40%;
+}
+
+.card-img-top {
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
+}
+.carousel-caption {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: white; 
+    text-align: center; 
+    padding: 10px; 
+    border-radius: 5px; 
+    left: 100%;
+    margin: auto;
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 400px;
+}
+footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.logo
+{
+
+}
+footer .text 
+{
+    text-align: center;
+    color: var(--main-color);
+}
+footer .btns 
+{
+    display: flex;
+    gap: 15px;
+}
+footer .btns button 
+{
+border: none;
+}
+footer .btns button img
+{
+    width: 100px;
+}
+.footer-icons
+{
+    font-size: 30px;
+    margin: 10px;
+}
+.footer-icons span 
+{
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: darkblue;
+    text-align: center;
+}
+.footer-icons span i
+{
+    color: white;
+    width: 50px;
+}
+.last-text
+{
+display: flex;
+gap: 20px
+}
+.last-text p
+{
+color: var(--main-color);
+} 
